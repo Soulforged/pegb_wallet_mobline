@@ -1,0 +1,51 @@
+{
+  "name": "pegb_wallet_mobile",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "expo": "^25.0.0",
+    "humps": "^2.0.1",
+    "moment": "^2.22.2",
+    "normalizr": "^3.2.4",
+    "react": "16.2.0",
+    "react-art": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-native": "0.52.0",
+    "react-native-web": "^0.7.3",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.4.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "websql": "^1.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "npm run test-web && npm run test-native",
+    "eject": "react-scripts eject",
+    "start-native": "react-native-scripts start",
+    "eject-native": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test-native": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-expo": "^4.0.0",
+    "flow-bin": "^0.73.0",
+    "jest-expo": "^27.0.1",
+    "react-native-scripts": "^1.14.0",
+    "react-test-renderer": "16.2.0"
+  }
+}
